@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header * {
+    color: #FFFF00;
+    background-color: #0A0A0A;
+}
+
+header {
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+}
+
+header video {
+    max-height: 100%;
+    /*-webkit-box-reflect:right 1px;
+    -webkit-box-reflect:left 1px;*/
+    -webkit-box-reflect: left 0px -webkit-gradient(linear, right top, left top, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.5)));
+    -webkit-box-reflect: right 0px -webkit-gradient(linear, left top, right top, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.5)));
+}
+
+.headerText {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.headerText a {
+    text-decoration: none;
+}
+
+.slogan {
+    /*float: left;*/
+    margin-bottom: 0;
+}
+
+.turnVideoOff {
+    border: thin solid magenta;
+    padding: 1%;
+    float: right;
+    margin: 0 15% 0 0;
+    position: inherit;
+    bottom: 0;
+    right: 5px;
+    z-index: 2;
+}
+
+.videoContainer {
+    height: inherit;
+    width: auto;
+    border: medium solid magenta;
+    margin: 0 auto;
+    padding: 0 20%;
+}
